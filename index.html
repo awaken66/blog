@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MyDevBlog</div>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="post.html">文章</a>
+            <a href="about.html">关于我</a>
+            <button id="theme-toggle" style="margin-left: 20px; cursor: pointer; border: none; background: #eee; padding: 5px 10px; border-radius: 5px;">🌙 深色模式</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <article class="post-card">
+                <h2 class="post-title"><a href="post.html">我的第一篇编程博客</a></h2>
+                <div class="post-meta">发布于 2026年2月26日 | 分类：前端开发</div>
+                <p>这是我的个人博客的第一篇文章。在这里，我将记录我学习代码的日常、遇到的 Bug 以及解决它们的喜悦。通过搭建这个博客，我学习了 HTML 结构和 CSS Flexbox 布局...</p>
+                <a href="post.html" class="read-more">阅读全文 →</a>
+            </article>
+
+            <article class="post-card">
+                <h2 class="post-title"><a href="post2.html">为什么选择写代码？</a></h2>
+                <div class="post-meta">发布于 2026年2月20日 | 分类：生活随笔</div>
+                <p>编程不仅仅是与计算机交流，它更像是一种创造。通过一行行代码，我们可以将脑海中的想法变成现实的网页和应用程序。保持耐心，持续学习，是每一个程序员的必修课...</p>
+                <a href="post2.html" class="read-more">阅读全文 →</a>
+            </article>
+        </main>
+
+        <aside>
+            <div class="widget">
+                <h3>关于我</h3>
+                <p>你好！我是一名热爱编程的开发者。在这个博客里，我会分享关于代码、技术和生活的点滴。欢迎与我交流讨论！</p>
+            </div>
+            <div class="widget">
+                <h3>常用标签</h3>
+                <p>
+                    <a href="#">#HTML</a> / 
+                    <a href="#">#CSS</a> / 
+                    <a href="#">#JavaScript</a>
+                </p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 MyDevBlog. 记录代码与生活.</p>
+    </footer>
+
+    <button id="back-to-top" title="返回顶部">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
